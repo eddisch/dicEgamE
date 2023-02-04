@@ -1,6 +1,7 @@
 import game
 
-choice = int(input("Welcome to dicE gamE!\nWhat would you like to do?\n1: Play the Game!\n2: About page"))
+choice = int(input(
+    "Welcome to dicE gamE!\nWhat would you like to do?\n1: Play the Game!\n2: About page\nAnything else for exit"))
 if choice == 1:
     game.run()
 elif choice == 2:
